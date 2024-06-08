@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ขยายเวลา</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ขยายเวลา ( หุ้น )</h1>
+        <form id="paymentForm">
+            <label for="referenceNumber">ยูสเซอร์</label>
+            <input type="text" id="referenceNumber" placeholder="ยูสเซอร์" style="color:#828282">
+            
+            <label for="accountNumber">ชื่อ-นามสกุล</label>
+            <input type="text" id="accountNumber" placeholder="ชื่อ-นามสกุล" style="color:#828282">
+            
+            <label for="transactionDate">วันที่ ( ตัวอย่าง 01 เมษายน 2567 )</label>
+            <input type="text" id="transactionDate" placeholder="วัน/เดือน/ปี" style="color:#828282">
+
+            <label for="recipientName">เวลา ( ตัวอย่าง 09:00 )</label>
+            <input type="text" id="recipientName" placeholder="เวลา" style="color:#828282">
+
+            <label for="amount">เรียกเก็บ (ตัวอย่าง 50,000 )</label>
+            <input type="text" id="amount" placeholder="จำนวนเงิน" style="color:#828282">
+            
+             <label for="notes">หมายเหตุ ( ตัวอย่าง ซ่อมบิล / แก้ระบบ )</label>
+             <input type="text" id="notes" placeholder="หมายเหตุ" style="color:#d90909">
+            
+            <button type="button" id="saveImage">Save image</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
