@@ -2,6 +2,7 @@ document.getElementById('saveImage').addEventListener('click', function() {
     const referenceNumber = document.getElementById('referenceNumber').value || "-";
     const accountNumber = document.getElementById('accountNumber').value || "-";
     const transactionDate = document.getElementById('transactionDate').value || "-";
+    const transactionDate1 = document.getElementById('transactionDate1').value || "-";
     const recipientName = document.getElementById('recipientName').value || "-";
     const amount = document.getElementById('amount').value || "-";
     const notes = document.getElementById('notes').value || "-";
@@ -24,7 +25,7 @@ document.getElementById('saveImage').addEventListener('click', function() {
                 
                 <p style="position: absolute; top: 175px; left: 500px; color:#656565; font-size: 20px; font-weight: bold;">${transactionDate}</p>     
                 <p style="position: absolute; top: 210px; left: 40px; color:#656565; font-size: 20px; font-weight: bold;">เรื่อง ยืนยันฐานข้อมูลธุรกรรม</p>     
-                <p style="position: absolute; top: 245px; left: 40px; color:#656565; font-size: 20px; font-weight: bold;">เรียน ${accountNumber}</p>     
+                <p style="position: absolute; top: 245px; left: 40px; color:#656565; font-size: 20px; font-weight: bold;">เรื่อง ${accountNumber}</p>     
                 
                 <p style="position: absolute; top: 290px; left: 30px; color:#656565; font-size: 20px; font-weight: bold;width: 90%;">
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -35,7 +36,7 @@ document.getElementById('saveImage').addEventListener('click', function() {
                 -ชื่อผู้ใช้งาน : ${referenceNumber}<br>
                 -ชื่อ-นามสกุล : ${accountNumber}<br>
                 -ยอดเงินที่ต้องดำเนินการ${notes} : ${amount} บาท <br>
-                -กำหนดเวลาใหม่ : ${transactionDate} ก่อนเวลา ${recipientName} น.
+                -กำหนดเวลาใหม่ : ${transactionDate1} ก่อนเวลา ${recipientName} น.
                 </p>     
 
 
