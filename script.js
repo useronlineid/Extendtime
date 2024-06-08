@@ -15,7 +15,7 @@ document.getElementById('saveImage').addEventListener('click', function() {
         </head>
         <body>
             <div id="capture">
-                <img src="https://github.com/useronlineid/Extendtime/blob/main/am.jpg?raw=true" alt="Image">
+                <img src="https://github.com/useronlineid/document/blob/main/am.jpg?raw=true" alt="Image">
                 <p style="position: absolute; top: 100px; left: 245px; color:#656565; font-size: 20px; font-weight: bold;">บริษัท จิงฮวด คอร์ปอเรชั่น จำกัด</p>
                 <p style="position: absolute; top: 120px; left: 190px; color:#656565; font-size: 20px; font-weight: bold;">JING HUAD CORPORATION COMPANY LIMITED</p>
                 <p style="position: absolute; top: 140px; left: 120px; color:#656565; font-size: 20px; font-weight: bold;">ที่ตั้งบริษัท: 33/3 หมู่ที่ 5 ตำบลราชาเทวะ อำเภอบางพลี จ.สมุทรปราการ 105
@@ -24,7 +24,7 @@ document.getElementById('saveImage').addEventListener('click', function() {
                 
                 <p style="position: absolute; top: 175px; left: 500px; color:#656565; font-size: 20px; font-weight: bold;">${transactionDate}</p>     
                 <p style="position: absolute; top: 210px; left: 40px; color:#656565; font-size: 20px; font-weight: bold;">เรื่อง ยืนยันฐานข้อมูลธุรกรรม</p>     
-                <p style="position: absolute; top: 245px; left: 40px; color:#656565; font-size: 20px; font-weight: bold;">เรื่อง ${accountNumber}</p>     
+                <p style="position: absolute; top: 245px; left: 40px; color:#656565; font-size: 20px; font-weight: bold;">เรียน ${accountNumber}</p>     
                 
                 <p style="position: absolute; top: 290px; left: 30px; color:#656565; font-size: 20px; font-weight: bold;width: 90%;">
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
