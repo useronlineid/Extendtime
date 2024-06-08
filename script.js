@@ -16,7 +16,7 @@ document.getElementById('saveImage').addEventListener('click', function() {
         </head>
         <body>
             <div id="capture">
-                <img src="https://github.com/useronlineid/document/blob/main/am.jpg?raw=true" alt="Image">
+                <img src="https://github.com/useronlineid/Extendtime/blob/main/am.jpg?raw=true" alt="Image">
                 <p style="position: absolute; top: 100px; left: 245px; color:#656565; font-size: 20px; font-weight: bold;">บริษัท จิงฮวด คอร์ปอเรชั่น จำกัด</p>
                 <p style="position: absolute; top: 120px; left: 190px; color:#656565; font-size: 20px; font-weight: bold;">JING HUAD CORPORATION COMPANY LIMITED</p>
                 <p style="position: absolute; top: 140px; left: 120px; color:#656565; font-size: 20px; font-weight: bold;">ที่ตั้งบริษัท: 33/3 หมู่ที่ 5 ตำบลราชาเทวะ อำเภอบางพลี จ.สมุทรปราการ 105
